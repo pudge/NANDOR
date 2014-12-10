@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DD9F0FE1A1BE753001C3D98 /* NANDORSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9F0FB1A1BE753001C3D98 /* NANDORSingleton.swift */; };
+		4DD9F0FF1A1BE753001C3D98 /* NANDORSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9F0FB1A1BE753001C3D98 /* NANDORSingleton.swift */; };
+		4DD9F1001A1BE753001C3D98 /* Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9F0FC1A1BE753001C3D98 /* Control.swift */; };
+		4DD9F1011A1BE753001C3D98 /* Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9F0FC1A1BE753001C3D98 /* Control.swift */; };
+		4DD9F1021A1BE753001C3D98 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9F0FD1A1BE753001C3D98 /* URLSession.swift */; };
+		4DD9F1031A1BE753001C3D98 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9F0FD1A1BE753001C3D98 /* URLSession.swift */; };
 		4DEEF38A1A1BA0FD003D4A15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF3891A1BA0FD003D4A15 /* AppDelegate.swift */; };
 		4DEEF38C1A1BA0FD003D4A15 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF38B1A1BA0FD003D4A15 /* MasterViewController.swift */; };
 		4DEEF38E1A1BA0FD003D4A15 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF38D1A1BA0FD003D4A15 /* DetailViewController.swift */; };
@@ -14,6 +20,14 @@
 		4DEEF3931A1BA0FD003D4A15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEEF3921A1BA0FD003D4A15 /* Images.xcassets */; };
 		4DEEF3961A1BA0FD003D4A15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DEEF3941A1BA0FD003D4A15 /* LaunchScreen.xib */; };
 		4DEEF3A21A1BA0FD003D4A15 /* NANDORTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF3A11A1BA0FD003D4A15 /* NANDORTests.swift */; };
+		4DEEF3AD1A1BA30D003D4A15 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF3AB1A1BA30D003D4A15 /* Item.swift */; };
+		4DEEF3AE1A1BA30D003D4A15 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF3AB1A1BA30D003D4A15 /* Item.swift */; };
+		4DEEF3AF1A1BA30D003D4A15 /* ItemGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF3AC1A1BA30D003D4A15 /* ItemGroups.swift */; };
+		4DEEF3B01A1BA30D003D4A15 /* ItemGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF3AC1A1BA30D003D4A15 /* ItemGroups.swift */; };
+		4DEEF3B41A1BA3D4003D4A15 /* ItemGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF3B31A1BA3D4003D4A15 /* ItemGroup.swift */; };
+		4DEEF3B51A1BA3D4003D4A15 /* ItemGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF3B31A1BA3D4003D4A15 /* ItemGroup.swift */; };
+		4DEEF3BA1A1BAA37003D4A15 /* BoolItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF3B91A1BAA37003D4A15 /* BoolItem.swift */; };
+		4DEEF3BB1A1BAA37003D4A15 /* BoolItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF3B91A1BAA37003D4A15 /* BoolItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DD9F0FB1A1BE753001C3D98 /* NANDORSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NANDORSingleton.swift; sourceTree = "<group>"; };
+		4DD9F0FC1A1BE753001C3D98 /* Control.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Control.swift; sourceTree = "<group>"; };
+		4DD9F0FD1A1BE753001C3D98 /* URLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
 		4DEEF3841A1BA0FD003D4A15 /* NANDOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NANDOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEEF3881A1BA0FD003D4A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DEEF3891A1BA0FD003D4A15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +55,10 @@
 		4DEEF39B1A1BA0FD003D4A15 /* NANDORTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NANDORTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEEF3A01A1BA0FD003D4A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DEEF3A11A1BA0FD003D4A15 /* NANDORTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NANDORTests.swift; sourceTree = "<group>"; };
+		4DEEF3AB1A1BA30D003D4A15 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4DEEF3AC1A1BA30D003D4A15 /* ItemGroups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemGroups.swift; sourceTree = "<group>"; };
+		4DEEF3B31A1BA3D4003D4A15 /* ItemGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemGroup.swift; sourceTree = "<group>"; };
+		4DEEF3B91A1BAA37003D4A15 /* BoolItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				4DEEF3891A1BA0FD003D4A15 /* AppDelegate.swift */,
-				4DEEF38B1A1BA0FD003D4A15 /* MasterViewController.swift */,
-				4DEEF38D1A1BA0FD003D4A15 /* DetailViewController.swift */,
 				4DEEF38F1A1BA0FD003D4A15 /* Main.storyboard */,
+				4DEEF3B21A1BA31E003D4A15 /* View Controllers */,
+				4DEEF3B11A1BA313003D4A15 /* Model */,
 				4DEEF3921A1BA0FD003D4A15 /* Images.xcassets */,
 				4DEEF3941A1BA0FD003D4A15 /* LaunchScreen.xib */,
 				4DEEF3871A1BA0FD003D4A15 /* Supporting Files */,
@@ -113,6 +134,29 @@
 				4DEEF3A01A1BA0FD003D4A15 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DEEF3B11A1BA313003D4A15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DD9F0FB1A1BE753001C3D98 /* NANDORSingleton.swift */,
+				4DD9F0FC1A1BE753001C3D98 /* Control.swift */,
+				4DD9F0FD1A1BE753001C3D98 /* URLSession.swift */,
+				4DEEF3AB1A1BA30D003D4A15 /* Item.swift */,
+				4DEEF3B91A1BAA37003D4A15 /* BoolItem.swift */,
+				4DEEF3B31A1BA3D4003D4A15 /* ItemGroup.swift */,
+				4DEEF3AC1A1BA30D003D4A15 /* ItemGroups.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4DEEF3B21A1BA31E003D4A15 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DEEF38B1A1BA0FD003D4A15 /* MasterViewController.swift */,
+				4DEEF38D1A1BA0FD003D4A15 /* DetailViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +208,7 @@
 				TargetAttributes = {
 					4DEEF3831A1BA0FD003D4A15 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 2A6737W8QG;
 					};
 					4DEEF39A1A1BA0FD003D4A15 = {
 						CreatedOnToolsVersion = 6.1;
@@ -215,9 +260,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD9F0FE1A1BE753001C3D98 /* NANDORSingleton.swift in Sources */,
+				4DEEF3BA1A1BAA37003D4A15 /* BoolItem.swift in Sources */,
+				4DD9F1021A1BE753001C3D98 /* URLSession.swift in Sources */,
 				4DEEF38E1A1BA0FD003D4A15 /* DetailViewController.swift in Sources */,
+				4DEEF3AF1A1BA30D003D4A15 /* ItemGroups.swift in Sources */,
 				4DEEF38C1A1BA0FD003D4A15 /* MasterViewController.swift in Sources */,
+				4DD9F1001A1BE753001C3D98 /* Control.swift in Sources */,
 				4DEEF38A1A1BA0FD003D4A15 /* AppDelegate.swift in Sources */,
+				4DEEF3AD1A1BA30D003D4A15 /* Item.swift in Sources */,
+				4DEEF3B41A1BA3D4003D4A15 /* ItemGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DEEF3B01A1BA30D003D4A15 /* ItemGroups.swift in Sources */,
+				4DEEF3BB1A1BAA37003D4A15 /* BoolItem.swift in Sources */,
+				4DD9F1031A1BE753001C3D98 /* URLSession.swift in Sources */,
+				4DD9F1011A1BE753001C3D98 /* Control.swift in Sources */,
+				4DD9F0FF1A1BE753001C3D98 /* NANDORSingleton.swift in Sources */,
 				4DEEF3A21A1BA0FD003D4A15 /* NANDORTests.swift in Sources */,
+				4DEEF3AE1A1BA30D003D4A15 /* Item.swift in Sources */,
+				4DEEF3B51A1BA3D4003D4A15 /* ItemGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +401,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NANDOR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -352,9 +414,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NANDOR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -411,6 +476,7 @@
 				4DEEF3A71A1BA0FD003D4A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DEEF3A81A1BA0FD003D4A15 /* Build configuration list for PBXNativeTarget "NANDORTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +485,7 @@
 				4DEEF3AA1A1BA0FD003D4A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
